@@ -213,7 +213,7 @@ def FinalFileWriteWithCreateMpdelAndLearn(testname, algorithm, maxsteps, pbenchm
     
 
 ##CreateModelAndLearn(False, 0, 'PPO', 60000,"cbench-v1/bzip2","Autophase",1000)
-FinalFileWriteWithCreateMpdelAndLearn('PPO_25000_bzip2__instcount_plainmodel', 'PPO', 25000,"cbench-v1/bzip2","InstCount",1000,0,False)
+FinalFileWriteWithCreateMpdelAndLearn('A2C_25000_bzip2__instcount_512', 'A2C', 25000,"cbench-v1/bzip2","InstCount",1000,512,False)
 ##CreateModelAndLearn(False, 0, 'DQN', 60000,"cbench-v1/bzip2","Autophase",1000)
 
 ##try tomorrow
